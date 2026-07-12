@@ -1,0 +1,16 @@
+{
+  "name": "dolaproxy",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible proxy for dola.com (ByteDance Doubao) — Fast/Pro chat, image and video (1.0) generation",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "chat": "node chat.js",
+    "smoke": "node smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
